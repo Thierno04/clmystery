@@ -94,9 +94,36 @@ ls interviews/
 cat interviews/*9437737
 grep "L337" vehicles
 grep -A 5 "L337" vehicles
+```
+```bash
 cd memberships/
+cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
 cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
 cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
-
-
-``` 
+cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens" | wc -l
+cat Fitness_Galaxy AAA United_MileagePlus | grep "Aron Pilhofer" | wc -l
+cat Fitness_Galaxy AAA United_MileagePlus | grep "Miranda Mulligan" | wc -l
+cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | wc -l
+cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers" | wc -l
+cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher" | wc -l
+cat Delta_SkyMiles AAA Museum_of_Bash_History | grep "Jacqui Maher" | wc -l
+cat Delta_SkyMiles AAA Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+cat Delta_SkyMiles AAA Museum_of_Bash_History | grep "Joe Germuska" | wc -l
+cat Delta_SkyMiles AAA Museum_of_Bash_History | grep "Miranda Mulligan" | wc -l
+cat Delta_SkyMiles AAA Museum_of_Bash_History | grep "Aron Pilhofer" | wc -l
+cat Delta_SkyMiles AAA Museum_of_Bash_History | grep "Erika Owens" | wc -l
+cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library| grep "Erika Owens" | wc -l
+cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library| grep "Aron Pilhofer" | wc -l
+cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library| grep "Miranda Mulligan" | wc -l
+cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library| grep "Joe Germuska" | wc -l
+cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library| grep "Jeremy Bowers" | wc -l
+cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library| grep "Jacqui Maher" | wc -l
+cd ..
+```
+```bash
+ls
+cd interviews/
+grep "Maher" *
+echo "The culprit is Jeremy Bowers"
+```
+ 
