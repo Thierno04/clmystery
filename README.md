@@ -83,5 +83,20 @@ man grep
 grep "\w\s\w\n" new_memberships
 grep ".*\s.*\n" new_memberships
 grep "\w*\s\w*\n" new_memberships
+``` 
+```bash
+cd interviews/
+grep "Sun" *
+grep "Church" *
+cd ..
+ead -n 173 streets/Mattapan_Street | tail -n 1
+ls interviews/
+cat interviews/*9437737
+grep "L337" vehicles
+grep -A 5 "L337" vehicles
+cd memberships/
+cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+
 
 ``` 
