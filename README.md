@@ -55,5 +55,33 @@ cat new_memberships_4
 cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library |sort > new_memberships_4
 cat new_memberships_4
 rm -r new_memberships_2
-
+cd ..
 ```
+```bash 
+cd interviews/
+grep "AAA" *
+cat interview-290346
+cd ..
+```
+```bash
+ls
+grep "Annabel" people
+grep "Annabel.*F" people
+grep "Annabel.*F\s" people
+grep "Church" people
+```
+```bash
+awk '{print NR "- " $0}' people
+awk 'END {print NR}' people
+cut -d, -f 2 people
+cut -d, -f 1- people --output-delimiter=" | "
+cut -d, -f 1- people --output-delimiter=" : "
+awk 'NF==0 {print NR}' people
+```
+```bash
+man grep
+grep "\w\s\w\n" new_memberships
+grep ".*\s.*\n" new_memberships
+grep "\w*\s\w*\n" new_memberships
+
+``` 
