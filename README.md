@@ -89,7 +89,7 @@ cd interviews/
 grep "Sun" *
 grep "Church" *
 cd ..
-ead -n 173 streets/Mattapan_Street | tail -n 1
+head -n 173 streets/Mattapan_Street | tail -n 1
 ls interviews/
 cat interviews/*9437737
 grep "L337" vehicles
